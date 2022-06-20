@@ -5,7 +5,7 @@ import pickle
 
 
 with open('pipe_rf.pkl' , 'rb') as f:
-  model1 = pickle.load(f)
+    model1 = pickle.load(f)
 
 app = Flask(__name__)
 
